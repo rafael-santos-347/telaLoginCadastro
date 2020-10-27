@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #007bef;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Syne Mono', monospace;
+}
+
+body {
+    font-family: 'Trispace', sans-serif;
+}
+
+fieldset {
+   border: none;
+}

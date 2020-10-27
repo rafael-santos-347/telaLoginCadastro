@@ -1,0 +1,78 @@
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.caixa_login {
+    width: 50%;
+    height: 100%;
+    background-color: #d3e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 50%;
+    text-align: center;
+}
+
+.card input {
+    display: block;
+    width: 99%;
+    height: 30px;
+    padding-left: 33%;
+    margin: 20px 1px;
+    border: none;
+    border-radius: 4px;
+}
+
+.card h1 {
+    font-size: 36px;
+    color: #252525;
+}
+
+
+.card button{
+    margin-bottom: 10px;
+    background-color: #5a6b63;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    width: 99%;
+    color: white;
+}
+
+.card a {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.card button:hover {
+    background-color: #71c794;
+}
+
+
+.caixa_img {
+    width: 50%;
+    height: 100%;
+    background-color: #53c794;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_img img {
+    height: 55%;
+    width: 95%;
+}
+
+.caixa_img p a {
+    display: inline-block;
+}
+
