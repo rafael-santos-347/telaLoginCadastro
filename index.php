@@ -12,13 +12,13 @@
         <section class="caixa_login">
             
            <div class="card">
-            <form action="#">
+            <form action="usuarioLogado.php" method="POST">
                 <fieldset>
                     <legend><h1>Entre ou Cadastre-se</h1></legend>
-                    <input type="email" placeholder="Digite seu email">
-                    <input type="password" placeholder="Digite sua senha"><br>
+                    <input type="email" name="email" placeholder="Digite seu email">
+                    <input type="password" name="senha" placeholder="Digite sua senha"><br>
                     <button type="submit">Entrar</button><br>
-                    <a href="cadastro.html">Ainda não possui um cadastro? Clique aqui</a>
+                    <a href="cadastro.php">Ainda não possui um cadastro? Clique aqui</a>
                 </fieldset>
             </form>
            </div>

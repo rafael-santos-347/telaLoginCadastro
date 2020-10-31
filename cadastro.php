@@ -14,14 +14,14 @@
         </section>
         <section class="quadro">
              <div class="tela_cadastro">
-                <form action="#">
+                <form action="cadastro_usuario.php" method="POST">
                     <h1>Cadastro</h1>
-                    <input type="text" placeholder="Digite seu nome">
-                    <input type="email" placeholder="Digite seu email">
-                    <input type="password" placeholder="Digite sua senha">
-                    <input type="password" placeholder="Confirme sua senha">
+                    <input type="text" name="nome" placeholder="Digite seu nome">
+                    <input type="email" name="email" placeholder="Digite seu email">
+                    <input type="password" name="senha" placeholder="Digite sua senha">
+                    <input type="password" name="senha2" placeholder="Confirme sua senha">
                     <button type="submit">Cadastrar</button><br>
-                    <a href="index.html">Já possui cadastro? Faça o login</a>               
+                    <a href="index.php">Já possui cadastro? Faça o login</a>               
 
                 </form>
 
