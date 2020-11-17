@@ -76,3 +76,35 @@ main {
     display: inline-block;
 }
 
+@media (max-width: 425px) {
+    .caixa_img {
+        display:none;
+    }
+
+    .caixa_login {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 1440px) {
+    .card {
+        width: 40vw;
+    }
+
+    .card legend, input, button, a {
+        margin: 5% 0;
+    }
+
+    .card input {
+        margin: 7% 0;
+        height: 4rem;
+    }
+
+    .card legend h1 {
+        font-size: 5rem;
+    }
+
+    .card button {
+        height: 4rem;
+    }
+}

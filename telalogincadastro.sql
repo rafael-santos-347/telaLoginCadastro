@@ -32,6 +32,7 @@ CREATE TABLE IF NOT EXISTS `cadastrousuarios` (
   `id_usuario` int(11) NOT NULL AUTO_INCREMENT,
   `nome` varchar(80) NOT NULL,
   `email` varchar(50) NOT NULL,
+  `imagem` varchar(250) ,
   `senha` char(32) NOT NULL,
   PRIMARY KEY (`id_usuario`),
   UNIQUE KEY `email` (`email`)

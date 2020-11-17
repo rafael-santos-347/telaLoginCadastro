@@ -12,11 +12,18 @@ if((strlen($senha) > 5) && (strlen($email) > 0)) {
 
     $sql = "select * from cadastrousuarios where email = '$email' and senha = '$senha';";
 
-    $resultado = mysqli_fetch_all(mysqli_query($link, $sql));
+    $resultado = mysqli_fetch_assoc(mysqli_query($link, $sql));
 
-    $_SESSION['nome'] = $resultado[0][1];
-    $_SESSION['email'] = $resultado[0][2];
-    $_SESSION['senha'] = $resultado[0][3];
+    # Caso precise de ver toda a array
+    # echo '<pre>';
+    # print_r($resultado);
+    # echo '</pre>';
+
+    $_SESSION['nome'] = $resultado['nome'];
+    $_SESSION['email'] = $resultado['email'];
+    $_SESSION['senha'] = $resultado['senha'];
+    $_SESSION['imagem'] = $resultado['imagem'];
+    $_SESSION['id'] = $resultado['id_usuario'];
 
     echo "<script>window.location.href = 'home.php';</script>";
 

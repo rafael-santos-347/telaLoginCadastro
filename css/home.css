@@ -1,0 +1,21 @@
+.cor {
+    background-color: #4682b4;
+}
+
+header nav {
+    height: 11vh;
+}
+
+.dropdown button {
+    background-color: #53c794 !important;
+    padding-left:  7px  !important;
+}
+
+.cor2 {
+    background-color: #53c794 !important;
+
+}
+
+main form button {
+    background-color: #53c794 !important;
+}

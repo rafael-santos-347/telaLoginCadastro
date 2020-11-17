@@ -17,6 +17,7 @@
                 <form action="cadastro_usuario.php" method="POST">
                     <h1>Cadastro</h1>
                     <input type="text" name="nome" placeholder="Digite seu nome">
+                    <input type="url" name="imagem" placeholder="Imagem">
                     <input type="email" name="email" placeholder="Digite seu email">
                     <input type="password" name="senha" placeholder="Digite sua senha">
                     <input type="password" name="senha2" placeholder="Confirme sua senha">

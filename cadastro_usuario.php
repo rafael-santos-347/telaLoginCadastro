@@ -10,6 +10,7 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $senha = $_POST["senha"];
 $senha2 = $_POST["senha2"];
+$imagem = $_POST['imagem'];
 
 # Teste de funcionamento de conexão POST
 # echo $nome .'<hr>'. $email .'<hr>'. $senha .'<hr>'. $senha2 .'<hr>';
@@ -49,8 +50,8 @@ if (($nome == "" || $email == "") || ($senha == "" || $senha2 == "")) {
     # Comandos SQL
     $senha_c = md5($senha);
 
-    $sql = "insert into cadastrousuarios (nome, email, senha) 
-    values ('$nome', '$email', '$senha_c')";
+    $sql = "insert into cadastrousuarios (nome, email, senha, imagem) 
+    values ('$nome', '$email', '$senha_c', '$imagem')";
 
     $validacao_email = "select email from cadastrousuarios where email = '$email';";
 
